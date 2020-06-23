@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+html {
+	background-image: url('PIC\\background.png');
+	background-size: 10% 200%;
+}
+body {
+	padding: 5px 10% 25px;
+}
+nav {
+	
+}
+header {
+	position: sticky;
+	background-color: #cfcfcf;
+	border: 3px solid gray;
+}
+nav > ul > li {
+	background-color: #cfcfcf;
+	border: 3px solid gray;
+	padding: 5px;
+}
+article {
+	border: 3px solid gray;
+	background-color: #a9a9a9;
+	padding: 10px 0px;
+}
+#History {
+	padding: 10px 15px;
+	border: 3px solid gray;
+}
+#History > h1 {
+	background-color: #cfcfcf;
+	padding: 10px 15px;
+	text-shadow: 3px 5px #a9a9a9;
+	font-size: 1.9em;
+}
+#History > blockquote {
+	padding: 10px 15px;
+	background-color: #c0e2ec;
+}
+#History > cite {
+	padding: 10px 15px;
+}
+#History > span {
+	background-color: #e0ffe0;
+}
+#Logo > h1 {
+	background-color: #D8BFD8;
+	padding: 10px 15px;
+	text-shadow: 3px 5px #EE82EE;
+	font-size: 1.9em;
+}
+#Logo {
+	padding: 15px 15px;
+	border: 3px solid #A12688;
+}
+#Logo > p {
+	padding: 15px 15px;
+	background-color: #E5CCFF;
+	border: 3px solid #EE82EE;
+}
+#Logo > ul {
+	background-color: #EEDBFF;
+	border: 3px solid #EE82EE;
+}
+.button {
+	background-color: gray;
+	border: 2px solid black;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+}
+#Web-Form {
+	padding: 15px 15px;
+	border: 3px solid #98007A;
+}
+footer {
+	padding: 15px 0px;
+	border: 3px solid #A12688;
+	background-color: #A4A4A4;
+}
+h2 {
+	background-color: #A0A0A0;
+	padding: 10px 100px;
+	text-shadow: 3px 5px #8A7085;
+	font-size: 1.9em;
+}
+#Web-Form {
+	background-color: #C0C0C0;
+}
+#Web-Form span {
+	font-size: 0.5em;
+}
+#Market {
+	padding: 10px 15px;
+	border: 3px solid gray;
+}
+#Market h1 {
+	background-color: #ffc4ad;
+	border-style: groove;
+	border-width: 7px;
+	border-color: #d6734d; 
+	padding: 10px 15px;
+	font-size: 1.9em;
+}
+#Market > span {
+	background-color: #e0ffe0;
+}
+#Market h4 {
+	font-weight: normal
+}
+#S1 {
+	background: rgba(237, 206, 194, 0.5);
+	border-style: dotted;
+	border-width: 5px;
+	border-color: coral;
+}
+#S2 {
+	background: rgba(154, 203, 211, 0.5);
+	border-style: double;
+	border-width: 5px;
+	border-color: #9db2ab;
+}
+#S3 {
+	background: rgba(178, 178, 178, 0.5);
+	border-style: groove;
+	border-width: 5px;
+	border-color: rgba(131, 196, 161, 0.3);
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
